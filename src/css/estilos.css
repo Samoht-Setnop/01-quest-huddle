@@ -1,0 +1,80 @@
+html{
+    width: 1440px;
+    height: 800;
+    background-color: var(--bg-container--);
+    
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+/* font-family: 'Poppins', sans-serif; 
+width="1318" height="800"*/
+
+.container{
+    height: 100vh;
+    background-image: url('../img/bg-desktop.svg');
+    background-repeat:no-repeat ;
+    background-size: auto;
+    
+}
+
+.container .title{
+    margin: 40px 70px 70px ;
+}
+
+.container .sessao{
+    display: flex;
+    margin-left: 75px;
+    max-width: 100%;
+}
+
+.container .sessao .info h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 20px 50px ;
+    color: #ffffff;
+}
+
+.container .sessao .info p{
+    margin: 0 50px 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.container .sessao .info .btn1{
+    font-size: 19px;
+    color: var(--bg-container--);
+    background-color: #ffffff;
+    margin-left: 50px;
+    padding: 15px 70px;
+    border-radius: 30px;
+    border: solid #ffffff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container .sessao .info .btn1:hover{
+    color: #000000;
+    background-color: var(--bg-item--);
+    border: solid var(--bg-item--);
+}
+
+.container .rodape{
+    display: flex;
+    justify-content: end;
+}
+
+.container .rodape a{
+    font-size: 30px;
+    margin: 20px;
+    border: solid 1px #ffffff;
+    border-radius:50%;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.container .rodape a:hover{
+    background-color: var(--bg-item--);
+    color: var(--bg-container--);
+}
